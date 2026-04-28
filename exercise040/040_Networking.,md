@@ -1,0 +1,7 @@
+### CNIs
+https://github.com/containernetworking/cni
+
+The networking in Kubernetes gets implemented by the Container Networking Interface (CNI). There are a lot of different implementations to choose from. Often times it depends on the used Kubernetes which CNI to choose. For example if you use an AKS the preferred CNI would be the Azure CNI. If you choose Tanzu then you will use Antrea.
+
+The CNI has a clear specification which grpc calls need to be implemented
+https://github.com/containernetworking/cni/blob/main/SPEC.md
